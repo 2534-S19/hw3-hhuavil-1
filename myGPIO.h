@@ -49,6 +49,23 @@ void turnOn_BoosterpackLEDBlue();
 void turnOff_BoosterpackLEDBlue();
 
 // TODO: Define any constants that are local to myGPIO.c using #define
+/* Peripheral Defines  */
+//buttons
+#define L2 BIT4 //P1.4
+#define L1 BIT1 //P1.1
+#define B1 BIT1 //J4.33 -> P5.1
+#define B2 BIT5 //J4.32 -> P3.5
+
+//lEDs
+#define LED1 BIT0  //P1.0
+#define LED2R BIT0 //P2.0
+#define LED2G BIT1 //P2.1
+#define LED2B BIT2 //P2.2
+#define BLEDR BIT6 //J4.37 -> P2.6
+#define BLEDG BIT4 //J4.38 -> P2.4
+#define BLEDB BIT6 //J4.39 -> P5.6
+
+#define PRESSED 0
 
 
 #endif /* MYGPIO_H_ */

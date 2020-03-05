@@ -21,6 +21,6 @@ bool fsmBoosterpackButtonS1(unsigned int buttonhistory);
 
 
 // TODO: Define any constants that are local to homework.c using #define
-
+typedef enum {up, down} State;
 
 #endif /* HOMEWORK3_H_ */
